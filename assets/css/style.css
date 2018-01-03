@@ -1,0 +1,136 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+
+.section-padding{
+    padding: 70px 0;
+}
+
+.margin_minus_area{
+    background-image: url(../img/bg.jpg);
+    margin: 60px 0;
+}
+
+.dark_bg{
+    background-color: #000;
+}
+
+.margin_minus{
+    margin: -60px 0;
+    padding: 80px 70px;
+}
+
+.margin_box{
+    color: #fff;
+    font-size: 20px;
+    line-height: 1.8;
+}
+
+.margin_box h2{
+    font-size: 50px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.margin_box p{
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.minus_box{
+    border: 2px solid #BA9A6C;
+    padding: 12px 35px;
+    color: #fff;
+    margin: 30px 0;
+    display: inline-block;
+    text-transform: capitalize;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 30px;
+}
+
+.minus_box:hover{
+    color: #fff;
+}
+
+.big_dash{
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    position: relative;
+    padding-left: 35px;
+}
+
+.big_dash:before{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 30px;
+    left: 0;
+    top: 50%;
+    background: #fff;
+}
+
+.big_dash span{
+    opacity: .3;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+    font-size: 15px;
+}
+
+.margin_box{
+    position: relative;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.margin_box:before{
+    content: '';
+    position: absolute;
+    left: -30px;
+    top: 0;
+    height: 70px;
+    width: 70px;
+    border-left: 1px solid #fff;
+    border-top: 1px solid #fff;
+}
+
+.margin_box:after{
+    content: '';
+    position: absolute;
+    right: -50px;
+    bottom: 0;
+    height: 70px;
+    width: 70px;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
